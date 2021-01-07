@@ -4,10 +4,10 @@ MYSQL : 8.0.22(latest)
 
 # access
 ## web
-localhost
+http://localhost/
 
 ## phpMyAdmin
-localhost:8080
+http://localhost/:8080
 
 # HOW to use
 
