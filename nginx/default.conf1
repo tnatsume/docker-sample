@@ -8,6 +8,7 @@ server {
     location / {
         root   /usr/share/nginx/html/public;
         index  index.html index.htm index.php;
+        
         try_files $uri $uri/ /index.php$is_args$args;
     }
 
