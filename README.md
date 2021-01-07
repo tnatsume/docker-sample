@@ -7,7 +7,7 @@ MYSQL : 8.0.22(latest)
 http://localhost/
 
 ## phpMyAdmin
-http://localhost/:8080
+http://localhost:8080
 
 # HOW to use
 
