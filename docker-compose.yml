@@ -12,7 +12,7 @@ services:
         volumes:
             - ./source:/var/www/html
     mysql:
-        image: mysql:5.7
+        image: mysql:latest
         environment:
             MYSQL_DATABASE: laravel
             MYSQL_ROOT_PASSWORD: password
