@@ -1,6 +1,7 @@
 # Version
 PHP : 7.4.13<br>
-MYSQL : 8.0.22(latest)
+MYSQL : 8.0.22(latest)<br>
+Nginx 1.15
 
 # access
 ## web
