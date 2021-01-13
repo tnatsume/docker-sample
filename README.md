@@ -23,12 +23,12 @@ $ docker exec -it {folda name}_php-fpm_1 bash
 
 # into container
 ## At first, install composer
-'# composer install
+'# composer install<br>
 '# composer require predis/predis
 
 ## how to migrate
 '# php artisan migrate
 
 ## How to Authentication
-'# composer require laravel/ui
+'# composer require laravel/ui<br>
 '# php artisan ui vue --auth
