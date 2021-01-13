@@ -16,7 +16,7 @@ services:
         environment:
             MYSQL_DATABASE: laravel
             MYSQL_ROOT_PASSWORD: password
-            MYSQL_USER: laravel
+            MYSQL_USER: root
             MYSQL_PASSWORD: password
             TZ: Asia/Tokyo
         ports:
