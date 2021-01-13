@@ -1,7 +1,9 @@
 # Version
 PHP : 7.4.13<br>
 MYSQL : 8.0.22(latest)<br>
-Nginx 1.15
+Nginx : 1.15<br>
+Npm : 6.14.11
+Node.js : v11.15.0<br>
 
 # access
 ## web
@@ -23,12 +25,12 @@ $ docker exec -it {folda name}_php-fpm_1 bash
 
 # into container
 ## At first, install composer
-'# composer install
+'# composer install<br>
 '# composer require predis/predis
 
 ## how to migrate
 '# php artisan migrate
 
 ## How to Authentication
-'# composer require laravel/ui
+'# composer require laravel/ui:2<br>
 '# php artisan ui vue --auth
