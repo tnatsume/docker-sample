@@ -30,5 +30,5 @@ $ docker exec -it {folda name}_php-fpm_1 bash
 '# php artisan migrate
 
 ## How to Authentication
-'# composer require laravel/ui<br>
+'# composer require laravel/ui:2<br>
 '# php artisan ui vue --auth
