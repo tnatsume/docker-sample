@@ -40,10 +40,3 @@ services:
         image: redis:latest
         ports:
             - 6379:6379
-    https-portal3000:
-        image: steveltn/https-portal:1
-        ports:
-            - '3443:443'
-        environment:
-            STAGE: local
-            DOMAINS: 'localhost -> http://host.docker.internal:3000'
